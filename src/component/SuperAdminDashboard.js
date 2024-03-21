@@ -34,7 +34,7 @@ function CreateAdminForm() {
         });
 
       // Save admin to backend
-      const response = await axios.post('http://localhost:8080/createAdmin', { email, name, role, password: tempPassword });
+      const response = await axios.post('http://localhost:5000/createAdmin', { email, name, role, password: tempPassword });
       console.log(response.data);
     } catch (error) {
       setError('Failed to create admin');

@@ -96,7 +96,8 @@ function LoginForm({ onLogin }) {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post('http://localhost:8080/login', { email, password });
+      const response = await axios.post('http://localhost:5000/login', { email, password });
+      console.log(email, password);
       const { role } = response.data;
       console.log(role)
       if (role === 'admin' || role === 'employee' || role === 'superAdmin') {
