@@ -116,7 +116,9 @@ function LoginForm({ onLogin }) {
       <div className="login-card">
         <h1>Login</h1>
         <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
+        <br/>
         <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
+        <br/>
         <button onClick={handleLogin}>Login</button>
         {error && <div style={{ color: 'red' }}>{error}</div>}
       </div>

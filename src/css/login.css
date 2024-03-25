@@ -1,13 +1,13 @@
 .login-container {
     display: flex;
     height: 100vh;
-    background-color: rgba(211, 235, 246, 0.839);
+    background-color: rgba(255, 255, 255, 0.839);
     
   }
   
   .image-container {
     flex: 1;
-    background-image: url('C:\Users\MY PC\Desktop\Time_management_T\attendance\src\image\pngtree-woman-working-with-her-laptop-image_938434.jpg');
+    background-image: url('C:\Users\MY PC\Desktop\Time_management_T\attendance\src\image\students.9404f2f89ab8934e529d47fe3e48f9f1.svg');
     background-size: cover;
   }
   
